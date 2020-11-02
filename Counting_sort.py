@@ -26,5 +26,4 @@ def counting_sort(A, rango):
 
 lista = [2, 5, 3, 0, 2, 3, 0, 3]
 rango = 6
-mayor = 5
 counting_sort(lista, rango)
