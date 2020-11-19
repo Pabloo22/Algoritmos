@@ -43,7 +43,7 @@ def ordenacion_topologica_1(grafo_out: dict):
 
 
 def ordenacion_topologica_2(grafo_out: dict): 
-	# Es el algoritmo visto en clas y es 
+	# Es el algoritmo visto en clase y es 
 	# más eficiente que el anterior. O(n + m)
 
 	grafo_in = devuelve_vecinos_in(grafo_out) # Esta funcion es O(n + m)
