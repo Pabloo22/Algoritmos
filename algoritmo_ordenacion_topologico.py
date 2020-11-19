@@ -17,7 +17,7 @@ def devuelve_vecinos_in(grafo_out: dict):
 
 def ordenacion_topologica_1(grafo_out: dict): 
 	# Este algoritmo es O(n^2)
-	# Funciona a fuerza bruta. El primer intento.
+	# Funciona a fuerza bruta. 
 
 	l_ordenada = [] 
 	n = 0  # Para el análisis de complejidad
