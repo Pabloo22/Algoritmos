@@ -8,10 +8,11 @@ def tiempo(funcion):
 
 		t0 = time()
 		for i in range(rep):
-			funcion(*args)
+			output = funcion(*args)
 		t = time()
 		tiempo_total = (t - t0)
 		print(f"tiempo de {funcion.__name__}: {tiempo_total}")
+		return output
 
 	return print_tiempo
 
