@@ -15,6 +15,11 @@ def tiempo(funcion):
 
 	return print_tiempo
 
+"""
+Nota: si la función es recursiva necesitaremos una copia de ella en la propia
+función puesto que si no cuando se llame así misma estaría llamándose con el decorador.
+"""
+# Ejemplo:
 @tiempo
 def multiply(y, z):
 
@@ -36,26 +41,11 @@ def multiply(y, z):
 @tiempo
 def multiply2(y, z): return y*z
 
-
-
-#########################
-
+# No se requiere de print()
 multiply(5, 5)
 multiply2(5, 5)
 
-# t0 = time()
-# for i in range(rep):
-# 	222*222
-# t = time()
-# tiempo_total = (t - t0)
-# print(f"tiempo de 222*222: {tiempo_total}")
 
-# t0 = time()
-# for i in range(rep):
-# 	multiply(2, 2)
-# t = time()
-# tiempo_total = (t - t0)
-# print(f"tiempo de multiply(2, 2): {tiempo_total}")
 
 
 
