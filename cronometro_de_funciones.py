@@ -46,7 +46,3 @@ def multiply2(y, z): return y*z
 multiply(5, 5)
 multiply2(5, 5)
 
-
-
-
-
