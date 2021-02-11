@@ -2,7 +2,7 @@
 
 def check_sequence(sequence):
 	""" This algorithm is based on the Havel Hakimi theorem.
-	Returns True if the sequence is a graphic and returns False
+	Returns True if the sequence is a graphic one and returns False
 	if it isn't.
 	"""
 
