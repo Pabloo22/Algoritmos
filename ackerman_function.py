@@ -23,8 +23,7 @@ def ackermann_function_v1(m, n):
 	elif n == 0:
 		return ackermann_function_v1(m - 1, 1)
 	else:
-		return ackermann_function_v1(m -1, 
-									ackermann_function_v1(m, n -1))
+		return ackermann_function_v1(m -1, ackermann_function_v1(m, n -1))
 
 
 def ackermann_function_v2(m, n):
